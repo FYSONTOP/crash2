@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Crash Browser</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://i.ytimg.com/vi/cXRqUQCW_0Q/maxresdefault.jpg" alt="Image">
+  <script>
+    setTimeout(function() {
+      while(true) {
+        window.location.reload();
+      }
+    }, 2000);
+  </script>
+</body>
+</html>
